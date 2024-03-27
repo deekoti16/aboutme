@@ -11,26 +11,26 @@ const Footer = () => {
                 <div className="md:w-1/2 text-center md:text-right">
                     <div className="flex justify-center md:justify-end">
                         <a
-                            href="https://github.com/yourusername"
+                            href="https://github.com/deekoti16"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-white mr-3 hover:text-purple-600"
+                            className="text-white mr-3 hover:text-buttonColor hover:shadow-custom"
                         >
                             <AiFillGithub className="text-2xl" />
                         </a>
                         <a
-                            href="https://www.linkedin.com/in/yourusername"
+                            href="https://www.linkedin.com/in/deepika-koti/"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-white mr-3 hover:text-purple-600"
+                            className="text-white mr-3 hover:text-buttonColor hover:shadow-custom"
                         >
                             <FaLinkedinIn className="text-2xl" />
                         </a>
                         <a
-                            href="https://www.instagram.com/yourusername"
+                            href="https://www.instagram.com/depika.08"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-white hover:text-purple-600"
+                            className="text-white hover:text-buttonColor hover:shadow-custom"
                         >
                             <AiFillInstagram className="text-2xl" />
                         </a>

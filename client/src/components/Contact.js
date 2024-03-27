@@ -88,7 +88,7 @@ export default function Contact() {
                                 href="https://github.com/deekoti16"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-white mr-3 hover:text-purple-600"
+                                className="text-white mr-3 hover:text-buttonColor hover:shadow-custom"
                             >
                                 <AiFillGithub className="text-3xl" />
                             </a>
@@ -97,7 +97,7 @@ export default function Contact() {
                                 href="https://www.linkedin.com/in/deepika-koti/"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-white mr-3 hover:text-purple-600"
+                                className="text-white mr-3 hover:text-buttonColor hover:shadow-custom"
                             >
                                 <FaLinkedinIn className="text-3xl" />
                             </a>
@@ -105,7 +105,7 @@ export default function Contact() {
                                 href="https://www.instagram.com/depika.08"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-white hover:text-purple-600"
+                                className="text-white hover:text-buttonColor hover:shadow-custom"
                             >
                                 <AiFillInstagram className="text-3xl" />
                             </a>
