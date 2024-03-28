@@ -123,7 +123,7 @@ export default function Contact() {
                                         placeholder="Name"
                                         className="bg-gray-800 border-1 border-gray-900 text-white focus:outline-none focus:border-focusColor focus:shadow-custom rounded-lg py-3 px-4"
                                     />
-                                    <span className="text-red-500 mt-1 text-start ml-2">{errors.name || "\u00A0"}</span>
+                                    <span className="text-red-500 mt-1 text-start ml-2 text-sm">{errors.name || "\u00A0"}</span>
                                 </div>
                                 <div className="flex flex-col mb-2 md:w-1/2 md:ml-2">
                                     <input
@@ -134,7 +134,7 @@ export default function Contact() {
                                         placeholder="Email"
                                         className="bg-gray-800 border-1 border-gray-900 text-white focus:outline-none focus:border-focusColor focus:shadow-custom rounded-lg py-3 px-4"
                                     />
-                                    <span className="text-red-500 mt-1 text-start ml-2">{errors.email || "\u00A0"}</span>
+                                    <span className="text-red-500 mt-1 text-start ml-2 text-sm">{errors.email || "\u00A0"}</span>
                                 </div>
                             </div>
                             <div className="flex flex-col mb-2 md:px-2">
@@ -145,10 +145,10 @@ export default function Contact() {
                                     placeholder="Tell me about something"
                                     className="bg-gray-800 border-1 border-gray-900 text-white focus:outline-none focus:border-focusColor focus:shadow-custom rounded-lg py-3 px-4"
                                 />
-                                <span className="text-red-500 mt-1 text-start ml-2">{errors.message || "\u00A0"}</span>
+                                <span className="text-red-500 mt-1 text-start ml-2 text-sm">{errors.message || "\u00A0"}</span>
                             </div>
                             <div className="flex flex-row px-2">
-                                <button type="submit" className="flex-1 w-full text-white bg-gradient-to-br from-buttonColor to-custom-green-dark hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-lg px-5 py-2.5 text-center me-2 mb-2">Submit</button>
+                                <button type="submit" className="flex-1 w-full text-white bg-gradient-to-br from-buttonColor to-custom-green-dark hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-lg px-5 py-2.5 text-center mt-1 mb-2">Submit</button>
                             </div>
                         </form>
                     </div>

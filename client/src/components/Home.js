@@ -1,7 +1,24 @@
 import homegif from '../../src/images/home-img.svg';
 import Typewriter from 'typewriter-effect';
+import React, { useState, useEffect } from 'react';
+import { FaArrowCircleUp } from 'react-icons/fa';
+import { useWindowScroll } from 'react-use'
 
 export default function Home() {
+    const { y: pageYOffset } = useWindowScroll();
+    const [isVisible, setIsVisible] = useState(false);
+
+    useEffect(() => {
+        setIsVisible(pageYOffset > 100);
+    }, [pageYOffset]);
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    };
+
     return (
         <section id="home" className="px-4 py-12 lg:py-20">
             <div className="container relative mx-auto flex flex-col-reverse lg:flex-row items-center justify-center">
@@ -43,6 +60,11 @@ export default function Home() {
                             See my past work
                         </a>
                     </div>
+                </div>
+                <div className={`fixed md:bottom-14 right-10 bottom-20 transition-opacity duration-300 ${isVisible ? "opacity-100" : "opacity-0"} cursor-pointer`}
+                    onClick={scrollToTop}
+                >
+                    <FaArrowCircleUp className='text-2xl text-buttonColor' />
                 </div>
             </div>
         </section>

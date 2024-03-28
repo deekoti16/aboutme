@@ -1,6 +1,11 @@
 import { useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
+import About from './About';
+import Home from './Home';
+import Resume from './Resume';
+import Skills from './Skills';
+import Contact from './Contact';
 
 const ParticleBackground = () => {
     const [init, setInit] = useState(false);
@@ -29,7 +34,6 @@ const ParticleBackground = () => {
                     enable: true,
                     zIndex: -1
                 },
-
                 fpsLimit: 120,
                 interactivity: {
                     events: {
@@ -76,7 +80,7 @@ const ParticleBackground = () => {
                         value: 80,
                     },
                     opacity: {
-                        value: 0.5,
+                        value: 0.4,
                     },
                     shape: {
                         type: "circle",
@@ -89,6 +93,11 @@ const ParticleBackground = () => {
             }}
         />
         }
+            <Home></Home>
+            <About></About>
+            <Skills></Skills>
+            <Resume></Resume>
+            <Contact></Contact>
         </>
     )
         ;
