@@ -27,7 +27,7 @@ const ParticleBackground = () => {
             options={{
                 fullScreen: {
                     enable: true,
-                    zIndex: -2
+                    zIndex: -1
                 },
 
                 fpsLimit: 120,

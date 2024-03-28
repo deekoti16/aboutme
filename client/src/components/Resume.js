@@ -66,7 +66,7 @@ const Resume = () => {
                             </div>
                             {/* Connection line */}
                             {exp.id !== experienceData.length && (
-                                <div className="absolute left-1.5 top-12 md:top-9 w-0.5 h-full bg-green-600"></div>
+                                <div className="absolute left-1.5 top-14 md:top-9 w-0.5 h-full bg-green-600"></div>
                             )}
                         </div>
                     ))}
@@ -89,7 +89,7 @@ const Resume = () => {
                             </div>
                             {/* Connection line */}
                             {edu.id !== experienceData.length && (
-                                <div className="absolute left-1.5 top-12 md:top-9 w-0.5 h-full bg-green-600"></div>
+                                <div className="absolute left-1.5 top-14 md:top-9 w-0.5 h-full bg-green-600"></div>
                             )}
                         </div>
                     ))}
