@@ -14,6 +14,12 @@ module.exports = {
       boxShadow: {
         'custom': '0 0 5px rgba(128, 189, 255, 0.5)',
       },
+      gradientColorStops: {
+        'custom-green': '#20c997',
+        'custom-green-dark': '#009d80',
+        'custom-gray': '#808080',
+        'custom-gray-dark': '#696969',
+      },
     },
   },
   plugins: [],

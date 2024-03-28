@@ -8,7 +8,7 @@ const experienceData = [
         company: "Capgemini",
         date: "Sep 2020 - Apr 2022",
         description:
-            "Responsible for leading the development team, implementing new features, and optimizing existing codebase.",
+            "As a full-stack developer, I spearheaded the development of a dynamic web application using React for the frontend and Node.js, Express, and MongoDB for the backend. My responsibilities included architecting robust database structures, implementing efficient server-side logic, and crafting intuitive user interfaces. I contributed to every aspect of the development lifecycle, ensuring seamless integration between frontend and backend components for optimal performance and user experience.",
     },
     {
         id: 2,
@@ -16,7 +16,7 @@ const experienceData = [
         company: "Capgemini",
         date: "Feb 2017 - Sep 2020",
         description:
-            "Contributed to the design and development of web applications using React.js and Node.js.",
+            "As a frontend developer specializing in React.js, I've been instrumental in building captivating user interfaces and interactive web applications. Leveraging my expertise in React.js and Tailwind CSS, I've crafted seamless user experiences and contributed to the development of dynamic and responsive websites.",
     },
 ];
 
@@ -66,7 +66,7 @@ const Resume = () => {
                             </div>
                             {/* Connection line */}
                             {exp.id !== experienceData.length && (
-                                <div className="absolute left-1 top-9 w-0.5 h-full bg-green-600"></div>
+                                <div className="absolute left-1.5 top-12 md:top-9 w-0.5 h-full bg-green-600"></div>
                             )}
                         </div>
                     ))}
@@ -88,8 +88,8 @@ const Resume = () => {
                                 </div>
                             </div>
                             {/* Connection line */}
-                            {edu.id !== educationData.length && (
-                                <div className="absolute left-1 top-9 w-0.5 h-full bg-green-600"></div>
+                            {edu.id !== experienceData.length && (
+                                <div className="absolute left-1.5 top-12 md:top-9 w-0.5 h-full bg-green-600"></div>
                             )}
                         </div>
                     ))}

@@ -79,7 +79,7 @@ export default function Contact() {
                         <span className="block w-16 border-b-4 border-green-600 mx-auto"></span>
                     </p>
                 </div>
-                <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6 pb-20">
+                <div className="container relative mx-auto flex flex-col md:flex-row items-center justify-between px-6 pb-20">
                     <div className="md:w-1/4 text-center">
                         <h2 className="text-2xl text-white mb-3">Find Me On</h2>
                         <p className="text-gray-400 mb-5">Feel free to connect with me</p>
@@ -148,7 +148,7 @@ export default function Contact() {
                                 <span className="text-red-500 mt-1 text-start ml-2">{errors.message || "\u00A0"}</span>
                             </div>
                             <div className="flex flex-row px-2">
-                                <button type="submit" className="flex-1 w-full text-center py-3 rounded bg-buttonColor text-white hover:bg-hoverColor focus:outline-none my-1">Submit</button>
+                                <button type="submit" className="flex-1 w-full text-white bg-gradient-to-br from-buttonColor to-custom-green-dark hover:bg-gradient-to-bl focus:outline-none dark:focus:ring-green-800 font-medium rounded-lg text-lg px-5 py-2.5 text-center me-2 mb-2">Submit</button>
                             </div>
                         </form>
                     </div>

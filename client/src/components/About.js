@@ -10,7 +10,7 @@ export default function About() {
                     <span className="block w-16 border-b-4 border-green-600 mx-auto"></span>
                 </p>
             </div>
-            <div className="container mx-auto flex flex-col items-center justify-center lg:flex-row">
+            <div className="container relative mx-auto flex flex-col items-center justify-center lg:flex-row">
                 <div className="mb-10 lg:mb-0 lg:w-1/2 lg:pr-12 text-center lg:text-left">
                     <p className="mb-8 text-sm md:text-lg leading-relaxed">
                         I specialize in designing and developing scalable web applications, guiding projects from conceptualization to deployment. My expertise spans both front-end and back-end technologies, allowing me to craft intuitive user interfaces with HTML5, CSS3, and JavaScript frameworks like React.js. On the server side, I build robust components and APIs using Node.js, Express, and other back-end frameworks.
@@ -27,7 +27,7 @@ export default function About() {
                         <li className="mb-4 pb-4 border-b border-gray-500"><span className="font-semibold">From:</span> Toronto, Canada</li>
                     </ul>
                     <div className="flex justify-center lg:justify-start">
-                        <a href={pdf} download className="inline-flex text-white bg-buttonColor border-0 py-2 px-6 focus:outline-none hover:bg-hoverColor rounded-lg text-lg">Download CV</a>
+                        <a href={pdf} download className="inline-flex text-white bg-gradient-to-br from-buttonColor to-custom-green-dark hover:bg-gradient-to-bl focus:outline-none dark:focus:ring-green-800 font-medium rounded-lg text-lg px-5 py-2.5 text-center me-2 mb-2">Download CV</a>
                     </div>
                 </div>
             </div>

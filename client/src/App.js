@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import Resume from './components/Resume';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import ParticleBackground from './components/ParticleBackground';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
@@ -15,7 +16,9 @@ function App() {
     <main className="text-gray-400 bg-gray-900 body-font">
 
       <Router>
+
         <Navbar />
+        <ParticleBackground />
         <Home id="home" />
         <About id="about" />
         <Skills id="skills" />

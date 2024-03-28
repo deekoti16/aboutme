@@ -14,7 +14,7 @@ export default function Skills() {
     //const shuffledSkills = shuffleArray([...skills]);
     return (
         <section id="skills">
-            <div className="container px-5 py-20 mx-auto">
+            <div className="container relative px-5 py-20 mx-auto">
                 {/* <div className="text-center mb-20">
                     <ChipIcon className="w-10 inline-block mb-4" />
                     <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
@@ -34,7 +34,7 @@ export default function Skills() {
 
                 <div className="flex flex-wrap justify-center">
                     {skills.map((skill) => (
-                        <div key={skill} className="m-2 px-3 py-2 rounded bg-gray-800 border-1 border-green-400 hover:border-green-600 hover:scale-105 hover:shadow-lg transition duration-300 ease-in-out">
+                        <div key={skill} className="m-2 px-3 py-2 rounded-full bg-gray-800 border border-green-400 hover:border-green-600 hover:scale-105 hover:shadow-lg transition duration-300 ease-in-out">
                             <span className="text-white">
                                 {skill}
                             </span>
