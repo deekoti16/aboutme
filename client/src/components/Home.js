@@ -2,7 +2,7 @@ import homegif from '../../src/images/home-img.svg';
 import Typewriter from 'typewriter-effect';
 import React, { useState, useEffect } from 'react';
 import { FaArrowCircleUp } from 'react-icons/fa';
-import { useWindowScroll } from 'react-use'
+import { useWindowScroll } from 'react-use';
 
 export default function Home() {
     const { y: pageYOffset } = useWindowScroll();
@@ -61,11 +61,13 @@ export default function Home() {
                         </a>
                     </div>
                 </div>
-                <div className={`fixed md:bottom-14 right-10 bottom-20 transition-opacity duration-300 ${isVisible ? "opacity-100" : "opacity-0"} cursor-pointer`}
-                    onClick={scrollToTop}
-                >
-                    <FaArrowCircleUp className='text-2xl text-buttonColor' />
-                </div>
+                {isVisible && (
+                    <div className={`fixed md:bottom-14 right-10 bottom-20 transition-opacity duration-300 ${isVisible ? "opacity-100" : "opacity-0"} cursor-pointer`}
+                        onClick={scrollToTop}
+                    >
+                        <FaArrowCircleUp className='text-2xl text-buttonColor' />
+                    </div>
+                )}
             </div>
         </section>
     );
