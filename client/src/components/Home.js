@@ -34,15 +34,12 @@ export default function Home() {
                     <div className="flex flex-col md:flex-row items-center justify-center md:justify-start">
                         <a
                             href="#contact"
-                            className="text-white bg-gradient-to-br from-buttonColor to-custom-green-dark hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-lg px-5 py-2.5 text-center me-2 mb-2">
+                            className="text-white bg-gradient-to-br from-buttonColor to-custom-green-dark hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-lg px-5 py-2.5 text-center mb-2">
                             Work with Me
                         </a>
-                        {/* mb-4 md:mb-0 w-full md:w-auto text-white bg-buttonColor border-0 py-2 px-8 focus:outline-none hover:bg-hoverColor rounded-lg text-lg */}
                         <a
-                            href="#projects"
-                            className="w-full md:w-auto ml-0 md:ml-4 text-gray-400 bg-gradient-to-br from-gray-700 via-gray-800 to-gray-900 border-0 py-2 px-8 focus:outline-none hover:bg-gradient-to-bl rounded-lg text-lg">
-                            {/* text-white bg-gradient-to-br from-custom-gray to-custom-gray-dark hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-lg px-8 py-2.5 text-center me-2 mb-2 */}
-                            {/* w-full md:w-auto ml-0 md:ml-4 text-gray-400 bg-gray-800 border-0 py-2 px-8 focus:outline-none hover:bg-gray-700 rounded-lg text-lg */}
+                            href="#resume"
+                            className="text-gray-400 bg-gradient-to-br from-gray-700 via-gray-800 to-gray-900 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-gray-500 dark:focus:ring-gray-800 rounded-lg text-lg py-2.5 px-5 text-center mb-2 md:ml-2 md:mt-4">
                             See my past work
                         </a>
                     </div>

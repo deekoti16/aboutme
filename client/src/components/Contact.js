@@ -148,7 +148,7 @@ export default function Contact() {
                                 <span className="text-red-500 mt-1 text-start ml-2">{errors.message || "\u00A0"}</span>
                             </div>
                             <div className="flex flex-row px-2">
-                                <button type="submit" className="flex-1 w-full text-white bg-gradient-to-br from-buttonColor to-custom-green-dark hover:bg-gradient-to-bl focus:outline-none dark:focus:ring-green-800 font-medium rounded-lg text-lg px-5 py-2.5 text-center me-2 mb-2">Submit</button>
+                                <button type="submit" className="flex-1 w-full text-white bg-gradient-to-br from-buttonColor to-custom-green-dark hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-lg px-5 py-2.5 text-center me-2 mb-2">Submit</button>
                             </div>
                         </form>
                     </div>
