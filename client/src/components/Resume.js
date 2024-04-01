@@ -37,7 +37,7 @@ const educationData = [
 
 const Resume = () => {
     return (
-        <section id="resume" className="container mx-auto px-4 py-12">
+        <section id="resume" className="container mx-auto px-4 py-12 lg:py-20">
             <div className="relative m-2 flex items-center justify-center text-center mb-5">
                 <h2 className="text-6xl md:text-9xl uppercase font-semibold mb-0 text-gray-800">Summary</h2>
                 <p className="absolute bottom-10 left-0 right-0 mb-0 text-4xl font-semibold text-white">

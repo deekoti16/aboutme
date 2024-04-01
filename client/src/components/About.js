@@ -22,7 +22,7 @@ export default function About() {
                 <div className="lg:w-1/4 lg:pl-12">
                     <ul className="mb-10 list-inside text-white">
                         <li className="mb-4 pb-4 border-b border-gray-500"><span className="font-semibold">Name:</span> Deepika Koti</li>
-                        <li className="mb-4 pb-4 border-b border-gray-500"><span className="font-semibold">Email:</span> <a href="mailto:deepikadasineni16@gmail.com" className="text-blue-400">deepikadasineni16@gmail.com</a></li>
+                        <li className="mb-4 pb-4 border-b border-gray-500"><span className="font-semibold">Email:</span> <a href="mailto:deepikadasineni16@gmail.com" className="text-blue-400">deepikakoti16@gmail.com</a></li>
                         <li className="mb-4 pb-4 border-b border-gray-500"><span className="font-semibold">Age:</span> 28</li>
                         <li className="mb-4 pb-4 border-b border-gray-500"><span className="font-semibold">From:</span> Toronto, Canada</li>
                     </ul>
