@@ -54,6 +54,7 @@ export const skills = [
     "Jest",
     "Node.js",
     "Express.js",
+    "GraphQL",
     "RESTful APIs",
     "GraphQL",
     "React Hooks",

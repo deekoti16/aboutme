@@ -4,6 +4,14 @@ import React from "react";
 const experienceData = [
     {
         id: 1,
+        title: "UI/UX Designer",
+        company: "Capgemini",
+        date: "May 2022 - Jan 2024",
+        description:
+            "As a UI/UX Designer, I specialize in creating delightful digital experiences through user-centered design principles. Leveraging tools like Figma and Adobe XD, I collaborate closely with cross-functional teams to craft intuitive interfaces that meet both user needs and business goals. From wireframing to user testing, I am dedicated to delivering seamless experiences that drive engagement and satisfaction.",
+    },
+    {
+        id: 2,
         title: "Full-stack Developer",
         company: "Capgemini",
         date: "Sep 2020 - Apr 2022",
@@ -11,10 +19,10 @@ const experienceData = [
             "As a full-stack developer, I spearheaded the development of a dynamic web application using React for the frontend and Node.js, Express, and MongoDB for the backend. My responsibilities included architecting robust database structures, implementing efficient server-side logic, and crafting intuitive user interfaces. I contributed to every aspect of the development lifecycle, ensuring seamless integration between frontend and backend components for optimal performance and user experience.",
     },
     {
-        id: 2,
+        id: 3,
         title: "Frontend Developer",
         company: "Capgemini",
-        date: "Feb 2017 - Sep 2020",
+        date: "Feb 2018 - Apr 2022",
         description:
             "As a frontend developer specializing in React.js, I've been instrumental in building captivating user interfaces and interactive web applications. Leveraging my expertise in React.js and Tailwind CSS, I've crafted seamless user experiences and contributed to the development of dynamic and responsive websites.",
     },
