@@ -96,7 +96,7 @@ const Resume = () => {
                                 </div>
                             </div>
                             {/* Connection line */}
-                            {edu.id !== experienceData.length && (
+                            {edu.id !== educationData.length && (
                                 <div className="absolute left-1.5 top-16 md:top-9 w-0.5 h-full bg-green-600"></div>
                             )}
                         </div>
